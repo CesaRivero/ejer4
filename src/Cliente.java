@@ -2,10 +2,12 @@ public class Cliente {
     private String name;
     private Articulos articulo;
     private double billetera;
-
-    public void comprar(){
-
+    Cliente(String name,double billetera){
+        this.setBilletera(billetera);
+        this.setName(name);
     }
+
+
     public String getName() {
         return name;
     }
