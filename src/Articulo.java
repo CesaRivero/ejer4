@@ -1,10 +1,10 @@
 import java.util.Date;
 
-public class Articulos {
+public class Articulo {
     private String name;
     private double precio;
 
-    Articulos(String name, double precio) {
+    Articulo(String name, double precio) {
         this.setName(name);
         this.setPrecio(precio);
 

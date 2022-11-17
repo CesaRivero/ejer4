@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 public class Cliente {
     private String name;
-    private Articulos articulo;
+    private ArrayList<Articulo> articulo;
     private double billetera;
 
     Cliente(String name,double billetera){
@@ -17,13 +19,12 @@ public class Cliente {
         this.name = name;
     }
 
-    public Articulos getArticulo() {
-        return articulo;
+    public ArrayList<Articulo> addArticulo(Articulo articulo) {
+        this.articulo.add(articulo);
+        return this.articulo;
+
     }
 
-    public void setArticulo(Articulos articulo) {
-        this.articulo = articulo;
-    }
 
     public double getBilletera() {
         return billetera;
