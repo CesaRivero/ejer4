@@ -2,6 +2,7 @@ public class Cliente {
     private String name;
     private Articulos articulo;
     private double billetera;
+
     Cliente(String name,double billetera){
         this.setBilletera(billetera);
         this.setName(name);
